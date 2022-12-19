@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const google = require('googleapis');
+const { google } = require('googleapis');
 
 main();
 
@@ -28,7 +28,7 @@ async function vipLevelCrawler(URL) {
 async function saveData(data) {
   const auth = new google.auth.GoogleAuth({
     keyFile: 'credentials.json',
-    scopes: 'https://www.googleapis.com/auth/spreadsheets',
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
   });
   const authClientObject = await auth.getClient();
   const sheets = google.sheets({
