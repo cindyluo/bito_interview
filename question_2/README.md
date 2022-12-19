@@ -1,5 +1,9 @@
 # bito_interview - question_2
 
+## 說明
+
+使用 Appium + WebDriverIO + Jasmine 搭配 Android 實體機 (Pixel 6) 進行測試
+
 ## 如何開始
 
 ### 環境

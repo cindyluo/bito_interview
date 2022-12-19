@@ -1,5 +1,9 @@
 # bito_interview - question_3
 
+## 說明
+
+使用 Puppeteer 執行爬蟲，再將結果儲存到 Google Sheet
+
 ## 如何開始
 
 ### 環境

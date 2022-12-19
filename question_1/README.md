@@ -1,5 +1,9 @@
 # bito_interview - question_1
 
+## 說明
+
+使用 Cypress 進行 Web 的測試
+
 ## 如何開始
 
 ### 環境
